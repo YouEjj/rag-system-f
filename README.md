@@ -51,13 +51,14 @@ Alternatively, you can directly use the provided Jupyter Notebook `rag_system.ip
 
 If you prefer to run the application inside a Docker container, follow these steps to use the pre-built Docker image.
 
-To pull the Docker image from the specified link, run the following command:
+1. **Download the Docker image** from the provided [Google Drive link](https://drive.google.com/file/d/1S8yEWTogH2T71mRsTDuPpTbI9pOgRd1X/view?usp=drive_link), which contains the image as a `.tar` file.
 
+2. **Load the Docker image** into your local Docker environment by running the following command:
 ```bash
-docker pull <your-link>
+docker load -i rag_system_image.tar
 ```
 
-Next, run the container from the pre-built image with the following command:
+3. **Run the container** from the pre-built image with the following command:
 
 ```bash
 docker run -it rag-system-image
