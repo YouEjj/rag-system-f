@@ -1,0 +1,29 @@
+# Ignorer les fichiers Python compilés
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers de l'environnement virtuel Python
+env/
+venv/
+.venv/
+
+# Ignorer les fichiers de configuration personnels
+*.env
+*.local
+
+# Ignorer les fichiers Git
+.git
+.gitignore
+
+# Ignorer les fichiers temporaires générés par l'éditeur
+.DS_Store
+Thumbs.db
+
+# Ignorer le répertoire de logs si nécessaire
+logs/
+
+# Ignorer les fichiers de tests ou de documentation non nécessaires
+tests/
+docs/
