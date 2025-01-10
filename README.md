@@ -48,15 +48,22 @@ pip install PyPDF2 faiss-cpu sentence-transformers transformers farm-haystack
 Alternatively, you can directly use the provided Jupyter Notebook `rag_system.ipynb`, which contains all the source code and instructions. The notebook allows you to execute the code in a more interactive manner, with the added benefit of exploring each step individually. Simply open the notebook in a *Jupyter environment* or *Google Colab* and follow the instructions within to set up the system and perform document retrieval and question answering.
 
 ### 4. Use the Docker Image
+
 If you prefer to run the application inside a Docker container, follow these steps to use the pre-built Docker image.
 
-Run the container from the pre-built image with the following command:
+To pull the Docker image from the specified link, run the following command:
+
+```bash
+docker pull <your-link>
+```
+
+Next, run the container from the pre-built image with the following command:
 
 ```bash
 docker run -it rag-system-image
 ```
 
-After executing the Docker image, you might see the following output:
+This will start the container interactively. After executing the Docker image, you might see the following output:
 
 ![Description de l'image](./response.png)
 

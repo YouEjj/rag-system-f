@@ -2,3 +2,4 @@ __pycache__/
 *.log
 *.pkl
 env/
+rag_system_image.tar
