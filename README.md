@@ -56,6 +56,10 @@ Run the container from the pre-built image with the following command:
 docker run -it rag-system-image
 ```
 
+After executing the Docker image, you might see the following output:
+
+![Description de l'image](./response.png)
+
 
 ## Usage
 
