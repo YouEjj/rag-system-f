@@ -11,7 +11,7 @@ if __name__ == "__main__":
     pdf_text = extract_text_from_pdf(pdf_path)
 
     # prise en charge des expressions regulière
-    documents = re.split(r'(\d+\.)', pdf_text)  # Diviser à chaque numéro de section (1., 2., etc.)
+    documents = re.split(r'(\d+\.)', pdf_text) 
 
     documents = [documents[i] + documents[i+1] for i in range(0, len(documents)-1, 2)]
 

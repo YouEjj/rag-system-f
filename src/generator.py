@@ -17,5 +17,5 @@ def generate_response(query, retrieved_docs):
     # Générer une réponse
     inputs = tokenizer(prompt, return_tensors="pt", max_length=1024, truncation=True)
     outputs = model.generate(**inputs, max_length=300)
-    #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",retrieved_docs)
+    #print("!!!!!!!!!!!!!!!!!!!!!!!!!!",retrieved_docs)
     return tokenizer.decode(outputs[0], skip_special_tokens=True)

@@ -1,5 +1,6 @@
 import PyPDF2
 
+
 # Fonction pour extraire le texte d'un PDF
 def extract_text_from_pdf(pdf_path):
     """Extrait le texte d'un fichier PDF."""

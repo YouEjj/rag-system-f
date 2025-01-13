@@ -31,6 +31,6 @@ def index_documents(documents):
 
 # Étape 2 : Recherche dans les documents
 def retrieve_documents(query, retriever, document_store, top_k=3):
-    """Recherche les k documents les plus pertinents."""
+    """Recherche les k documents les plus pertinents depuis ceux indexes."""
     retrieved_docs = retriever.retrieve(query=query, top_k=top_k)
     return [doc.content for doc in retrieved_docs]
