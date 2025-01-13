@@ -19,3 +19,4 @@ COPY /src/data /app/data
 # Spécifier la commande par défaut pour exécuter votre programme
 CMD ["python", "src/main.py"]
 
+

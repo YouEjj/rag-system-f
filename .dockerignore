@@ -24,6 +24,7 @@ Thumbs.db
 # Ignorer le répertoire de logs si nécessaire
 logs/
 
+
 # Ignorer les fichiers de tests ou de documentation non nécessaires
 tests/
 docs/
